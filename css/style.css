@@ -8,7 +8,7 @@ h1{
     font-family: 'Cinzel Decorative', serif;
     font-weight: 100px;
     font-size: 50px;
-    line-height: 100px;
+    line-height: 200px;
 }
 h4{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -18,6 +18,7 @@ h4{
     margin-top: 20px;
     margin-bottom: 0;
     font-size: 16px;
+    color: white;
 }
 p{
     margin-left: 20px;
@@ -28,10 +29,11 @@ p{
     font-weight: 200;
     font-size: 14px;
     column-count: 2;
+    color: white;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: rgb(255, 255, 255);
 }
 a:hover{
     color: white;
@@ -41,30 +43,32 @@ a:active{
     text-decoration: none;
 }
 a p{
-    background-color: rgba(100% 100% 100% 0);
+    background-color: rgba(255, 255, 255, 0);
     transition: .3s;
     column-count: 1;
 }
 a p:hover{
-    background-color: #444;
+    background-color: #2c2929;
 }
 a p:active{
     background-color: rgb(211, 74, 74);
 }
 #container{
     width: 800px;
-    height:auto;
-    background-image: url("../images/photo-bkg.jpg");
-    background-color: aliceblue;
+    height: auto;
+    bottom: 0;
+    background-image: url("../images/sushi-bkg.jpg");
+    background-color: rgb(243, 170, 227);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: top;
+    background-position: center;
+    background-size: contain;
     position: relative;
     padding-bottom: 20px;
 }
 #masthead{
-    height: 100px;
-    background-image: url("../images/buddha.jpg");
+    height: 200px;
+    background-image: url("../images/japan.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
@@ -74,7 +78,7 @@ a p:active{
     width: 50%;
     /* <display: inline-block;> */
 }
-#trans-flower{
+#lucky-cat{
     position: absolute;
     width: 200px;
     right: 0;
